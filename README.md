@@ -28,7 +28,7 @@ actividad en `logs/actividad.log`.
 ## Estructura del proyecto
 
 ```
-TrabajoFinalSO/
+Final-Sistemas-Operativos/
 ├── menu.sh                 # Menú principal
 ├── config/
 │   └── config.conf         # Parámetros configurables (rutas, retención, etc.)
@@ -37,15 +37,18 @@ TrabajoFinalSO/
 │   ├── backup.sh            # Tarea 1: backup con rotación
 │   ├── reporte.sh           # Tarea 2: reporte de CPU/memoria/disco
 │   └── limpieza.sh          # Tarea 3: limpieza de temporales/caché
-└── logs/                    # Logs generados en tiempo de ejecución
+├── documentacion/
+│   └── memoria_tecnica.pdf  # Memoria técnica del trabajo
+├── logs/                    # Logs generados en tiempo de ejecución
+└── LICENSE
 ```
 
 ## Instrucciones de uso
 
 1. Clonar el repositorio:
    ```bash
-   git clone <url-del-repositorio>
-   cd TrabajoFinalSO
+   git clone https://github.com/PoloHernandez11/Final-Sistemas-Operativos.git
+   cd Final-Sistemas-Operativos
    ```
 2. Dar permisos de ejecución (solo la primera vez):
    ```bash
